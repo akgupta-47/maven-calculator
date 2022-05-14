@@ -21,7 +21,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'depolying...'
-                mvn deploy
             }
         }
     }
