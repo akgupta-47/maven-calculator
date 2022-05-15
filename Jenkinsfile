@@ -18,9 +18,9 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
+        stage('Custom-Reports') {
             steps {
-                echo 'depolying...'
+                bat 'mvn site'
             }
         }
     }
