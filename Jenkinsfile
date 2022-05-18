@@ -23,5 +23,10 @@ pipeline {
                 bat 'mvn site'
             }
         }
+	  stage('video step') {
+		steps {
+			echo 'AKshat 101903781'
+		}
+	  }
     }
 }
